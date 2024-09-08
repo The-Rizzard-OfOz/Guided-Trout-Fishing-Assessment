@@ -11,5 +11,13 @@ img{
 }
 
 header a{
-    
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 26px;
+    padding-bottom: 16px;
+    padding-left: 120px;
+    padding-right: 120px;
 }

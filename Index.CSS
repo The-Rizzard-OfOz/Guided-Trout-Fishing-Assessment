@@ -6,12 +6,22 @@ header{
     padding-left: 120px;
     padding-right: 120px;
 }
-img{
+header img{
     width: 10%;
 }
 
+aside img{
+    margin-left: 680px;
+    width: 1200px;
+    margin-bottom: 150px;
+}
+
 header a{
+    padding: 30px;
     float: right;
+}
+header a:hover{
+    border-radius: 20px;
 }
 footer{
     background-color: black;
@@ -23,5 +33,9 @@ footer{
 }
 
 h1{
-
+    margin-left: 350px;
+    margin-top: 3%;
+}
+p{
+    margin-top: 300px;
 }

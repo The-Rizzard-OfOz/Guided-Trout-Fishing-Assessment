@@ -61,11 +61,11 @@ p{
 }
 
 h2{
-    font-family: "Libre Bodoni", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-    font-size: 30px;
+        text-decoration: none;
+        font-family: "Julius Sans One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 45px;
 }
 h3{
     font-family: "Libre Bodoni", serif;

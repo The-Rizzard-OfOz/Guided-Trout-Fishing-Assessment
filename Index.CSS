@@ -11,7 +11,7 @@ img{
 }
 
 header a{
-
+    float: right;
 }
 footer{
     background-color: black;
@@ -20,4 +20,8 @@ footer{
     padding-bottom: 16px;
     padding-left: 120px;
     padding-right: 120px;
+}
+
+h1{
+
 }

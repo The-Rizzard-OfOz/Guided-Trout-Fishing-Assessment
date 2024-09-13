@@ -10,7 +10,20 @@
     <title>Home</title>
     <link rel="stylesheet" href="Index.CSS">
 
-
+    <style>
+        header {grid-area: header;}
+        main {grid-area: main;}
+        aside {grid-area: aside;}
+        footer {grid-area: footer;}
+        .grid-container{
+            display: grid;
+            grid-template-areas:
+            'header header header header'
+            'main main main main'
+            'footer footer footer footer';
+            margin: auto;
+        }
+    </style>
 </head>
 
 
@@ -19,12 +32,13 @@
 
 
 <body>
-    <header>
-        <img src="gtf_logo.png" alt="Logo">
+    <div class="grid-container">
+        <header>
+            <img src="gtf_logo.png" alt="Logo">
     
-        <a href="Index.HTML">Home  </a>
+            <a href="Services.HTML">Services  </a>
         <a href="locations.HTML">Locations  </a>
-        <a href="Services.HTML">Services  </a>
+        <a href="Index.HTML">Home  </a>
 
     </header>
     <main><p>Our rates are as follows: <br> <br>

@@ -10,7 +10,20 @@
     <title>Home</title>
     <link rel="stylesheet" href="Index.CSS">
 
-
+    <style>
+        header {grid-area: header;}
+        main {grid-area: main;}
+        aside {grid-area: aside;}
+        footer {grid-area: footer;}
+        .grid-container{
+            display: grid;
+            grid-template-areas:
+            'header header header header'
+            'main main main main'
+            'footer footer footer footer';
+            margin: auto;
+        }
+    </style>
 </head>
 
 
@@ -19,43 +32,46 @@
 
 
 <body>
-    <header>
-        <img src="gtf_logo.png" alt="Logo">
+    <div class="grid-container">
+        <header>
+            <img src="gtf_logo.png" alt="Logo">
 
-        <a href="Services.HTML">Services  </a>
-        <a href="locations.HTML">Locations  </a>
-        <a href="Index.HTML">Home  </a>
-    </header>
+            <a href="Services.HTML">Services  </a>
+            <a href="locations.HTML">Locations  </a>
+            <a href="Index.HTML">Home  </a>
+        </header>
     
-    <main><p>New Zealand has some of the most beautiful scenery <br>
-          and trout fishing of anywhere in the world. <br>
-         Over 30 rivers and streams in the Taupo district <br>
-         make this part of New Zealand a fishing paradise. <br>
-         John Hamilton and his guides can take you on an <br>
-         experience of a lifetime. Professionally guiding in <br>
-         the Taupo district for 15 years, John knows some <br>
-         of the best out-of-the-way locations where you <br>
-         can catch the trout of your dreams.</p></main>
+        <main>
+            <p>New Zealand has some of the most beautiful scenery <br>
+                and trout fishing of anywhere in the world. <br>
+                Over 30 rivers and streams in the Taupo district <br>
+                make this part of New Zealand a fishing paradise. <br>
+                John Hamilton and his guides can take you on an <br>
+                experience of a lifetime. Professionally guiding in <br>
+                the Taupo district for 15 years, John knows some <br>
+                of the best out-of-the-way locations where you <br>
+                can catch the trout of your dreams.</p></main>
     
-<aside><img src="lake-taupo-fishing.webp" alt="main image"></aside>
+        <aside>
+            <img src="lake-taupo-fishing.webp" alt="main image">
+        </aside>
 
-    <footer>
+        <footer>
         
-        <H2>Guided Trout Fishing</H2>
-        <H3>Turangi
-            |
-            PO Box 300
-            |
-            Mobile: 027 481 2459
-            |
-            Phone: (07) 378 4110
-            |
-            Email: info@guidedtrout.co.nz
-            |
-            John Hamilton</H3>
-
-
-    </footer>
+            <H2>Guided Trout Fishing</H2>
+            <H3>Turangi
+                |
+                PO Box 300
+                |
+                Mobile: 027 481 2459
+                |
+                Phone: (07) 378 4110
+                |
+                Email: info@guidedtrout.co.nz
+                |
+                John Hamilton</H3>
+        </footer>
+    </div>
 </body>
 
 

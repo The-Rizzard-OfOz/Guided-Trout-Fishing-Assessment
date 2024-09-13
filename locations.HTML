@@ -10,6 +10,20 @@
     <title>Home</title>
     <link rel="stylesheet" href="Index.CSS">
 
+    <style>
+        header {grid-area: header;}
+        main {grid-area: main;}
+        aside {grid-area: aside;}
+        footer {grid-area: footer;}
+        .grid-container{
+            display: grid;
+            grid-template-areas:
+            'header header header header'
+            'main main main main'
+            'footer footer footer footer';
+            margin: auto;
+        }
+    </style>
 
 </head>
 
@@ -19,31 +33,37 @@
 
 
 <body>
-    <header>
-        <img src="gtf_logo.png" alt="Logo">
-        
-        <a href="Index.HTML">Home  </a>
-        <a href="locations.HTML">Locations  </a>
-        <a href="Services.HTML">Services  </a>
+    <div class="grid-container">
 
-    </header>
-    <main>
-        <p>Select from a range of location options: <br>
-        1. River <br>
-        2. Lake <br>
-        3. Lake Edge <br>
-        4. Remote River <br> <br>
+        <header>
+            <img src="gtf_logo.png" alt="Logo">
         
-        We can show you how and where to catch some <br>
-        of the most magnificent trout in the Taupo district. <br> <br>
+            <a href="Services.HTML">Services  </a>
+            <a href="locations.HTML">Locations  </a>
+            <a href="Index.HTML">Home  </a>
+
+        </header>
+
+        <main>
+            <p>Select from a range of location options: <br>
+            1. River <br>
+            2. Lake <br>
+            3. Lake Edge <br>
+            4. Remote River <br> <br>
         
-        For your information … <br>
-                The number of trout in Lake Taupo and its <br>
-                tributaries is the highest since surveying <br>
-                began in 1990. In the 2005/6 season 267 tonnes <br>
-                of fish were estimated to have been caught. <br></p>
+            We can show you how and where to catch some <br>
+            of the most magnificent trout in the Taupo district. <br> <br>
+        
+            For your information … <br>
+            The number of trout in Lake Taupo and its <br>
+            tributaries is the highest since surveying <br>
+            began in 1990. In the 2005/6 season 267 tonnes <br>
+            of fish were estimated to have been caught. <br></p>
     </main>
-    <aside><img src="lake-taupo-fishing.webp" alt="main image"></aside>
+
+    <aside>
+        <img src="lake-taupo-fishing.webp" alt="main image">
+    </aside>
 
 
     <footer>
@@ -62,6 +82,7 @@
 
 
     </footer>
+    </div>
 </body>
 
 

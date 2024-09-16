@@ -4,3 +4,36 @@ body{
     margin: auto;
 }
 
+header {
+    background-color: black;
+    color: white;
+    padding-top: 26px;
+    padding-bottom: 16px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+header img {
+    width: 45%;
+}
+
+
+
+header a {
+    float: right;
+    color: white;
+    text-decoration: none;
+    font-family: "Julius Sans One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px;
+    font-size: 40px;
+}
+
+header a:hover{
+    background-color: rgb(50, 50, 50);
+
+}
+p {
+
+}
